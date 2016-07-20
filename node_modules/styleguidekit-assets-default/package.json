@@ -1,0 +1,78 @@
+{
+  "_args": [
+    [
+      "github:pattern-lab/styleguidekit-assets-default#feature-panels",
+      "c:\\src\\edition-node-gulp"
+    ]
+  ],
+  "_from": "pattern-lab/styleguidekit-assets-default#feature-panels",
+  "_id": "styleguidekit-assets-default@0.1.0",
+  "_inCache": true,
+  "_location": "/styleguidekit-assets-default",
+  "_phantomChildren": {},
+  "_requested": {
+    "hosted": {
+      "directUrl": "https://raw.githubusercontent.com/pattern-lab/styleguidekit-assets-default/feature-panels/package.json",
+      "gitUrl": "git://github.com/pattern-lab/styleguidekit-assets-default.git#feature-panels",
+      "httpsUrl": "git+https://github.com/pattern-lab/styleguidekit-assets-default.git#feature-panels",
+      "shortcut": "github:pattern-lab/styleguidekit-assets-default#feature-panels",
+      "ssh": "git@github.com:pattern-lab/styleguidekit-assets-default.git#feature-panels",
+      "sshUrl": "git+ssh://git@github.com/pattern-lab/styleguidekit-assets-default.git#feature-panels",
+      "type": "github"
+    },
+    "name": null,
+    "raw": "github:pattern-lab/styleguidekit-assets-default#feature-panels",
+    "rawSpec": "github:pattern-lab/styleguidekit-assets-default#feature-panels",
+    "scope": null,
+    "spec": "github:pattern-lab/styleguidekit-assets-default#feature-panels",
+    "type": "hosted"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git://github.com/pattern-lab/styleguidekit-assets-default.git#f3d5ed794c96298ed60afbd241a1b943cd04d3d4",
+  "_shasum": "6110e8068565c53cc8d9f729cb5309846e425414",
+  "_shrinkwrap": null,
+  "_spec": "github:pattern-lab/styleguidekit-assets-default#feature-panels",
+  "_where": "c:\\src\\edition-node-gulp",
+  "author": {
+    "name": "Dave Olsen"
+  },
+  "bugs": {
+    "url": "https://github.com/pattern-lab/styleguidekit-assets-default/issues"
+  },
+  "dependencies": {},
+  "description": "The default set of front-end assets for Pattern Lab.",
+  "devDependencies": {
+    "del": "^1.1.1",
+    "gulp": "^3.8.6",
+    "gulp-autoprefixer": "^2.1",
+    "gulp-concat": "^2.3.4",
+    "gulp-file-include": "^0.13.7",
+    "gulp-imagemin": "^0.6.1",
+    "gulp-jshint": "^1.8.0",
+    "gulp-load-plugins": "^0.5.3",
+    "gulp-minify-css": "^0.3.7",
+    "gulp-rename": "^1.2.0",
+    "gulp-resolve-dependencies": "^1.0.1",
+    "gulp-ruby-sass": "^1.0.0-alpha",
+    "gulp-uglify": "^1.1.0",
+    "gulp-util": "^3.0.0",
+    "imagemin-pngcrush": "^0.1.0",
+    "main-bower-files": "^1.0.2",
+    "yargs": "^1.2.6"
+  },
+  "gitHead": "f3d5ed794c96298ed60afbd241a1b943cd04d3d4",
+  "homepage": "https://github.com/pattern-lab/styleguidekit-assets-default",
+  "installable": true,
+  "license": "MIT",
+  "name": "styleguidekit-assets-default",
+  "optionalDependencies": {},
+  "readme": "# Static Assets for the Default StyleguideKit\r\n\r\nThese static assets are meant to be used with the default [Mustache](https://github.com/pattern-lab/styleguidekit-mustache-default) and [Twig](https://github.com/pattern-lab/styleguidekit-twig-default) StyleguideKits. They control the look, feel, and functionality of the front-end of Pattern Lab PHP.\r\n\r\n## Installation\r\n\r\nPattern Lab PHP uses [Composer](https://getcomposer.org/) to manage project dependencies. To install the default static assets run:\r\n\r\n    composer require pattern-lab/styleguidekit-assets-default\r\n\r\n## Development Requirements\r\n\r\nIn order to modify these assets you need to install the following:\r\n\r\n* the [Development Edition of Pattern Lab PHP](https://github.com/pattern-lab/edition-php-development)\r\n* [Node.js](http://nodejs.org) and NPM\r\n* [Bower](http://bower.io)\r\n* [Ruby Sass](http://sass-lang.com/install)\r\n\t\r\n## Development Set-up\r\n\r\nOnce you've installed the requirements do the following to set-up for development:\r\n\r\n1. `cd /path/to/dev-edition/packages/pattern-lab/styleguidekit-assets-default`\r\n2. `git config branch.dev.remote origin`\r\n3. `npm install`\r\n4. `bower install`\r\n\r\n## Making Changes\r\n\r\nTo make changes **always edit files in `src/`**. To make sure that these changes are reflected in the front-end and `dist/` folder run the following:\r\n\r\n    gulp\r\n\r\nTo watch for changes you can use:\r\n\r\n    gulp --watch\r\n\r\nAt this point changes to the static assets should compile to the correct locations in the project as well as `dist/`.\r\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pattern-lab/styleguidekit-assets-default.git"
+  },
+  "version": "0.1.0"
+}
