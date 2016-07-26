@@ -1,0 +1,85 @@
+/*SMALL*/
+
+/* Forms */
+
+
+.small-page .form-group label {
+  margin-left: 35px;
+  margin-bottom: .1rem;
+  width:100%;
+  font-weight:bold;
+  font-size:.8em
+}
+  
+small-page .form-group .form-control {
+  display: inline-block;
+  width: 87%;
+  border: 2px solid #b7b7b7;
+  border-radius: 0px;
+  margin-left: 35px;
+  margin-top: 0px;
+  color: #00003b;
+  height:45px;
+  background-color: #f1f1f1;
+  font-size: .8em
+}
+  
+ small-page .form-group .fa {
+  display: inline-block;
+  position: absolute;
+  color: #00003b;
+   top:18px
+
+}
+
+/* buttons */
+
+small-page .btn-login {
+  height: 65px;
+  width:87%!important;
+  padding-left:600px;
+  margin-left: 36px;
+  
+}
+
+
+/* login page */
+
+small-page .chelsea-logo {
+  margin: auto;
+  width:100px;
+  position:relative;
+  margin-top: 10px;
+  margin-bottom: 20px
+}
+
+
+
+small-page .login-heading  h1 {
+  font-size:3em
+}
+
+small-page .login-heading  h3 {
+  font-size:2em;
+  letter-spacing: 20px;
+  margin-bottom: 80px
+}
+
+
+small-page .login-box {
+  width:400px;
+  margin: auto;
+  padding: 50px;
+  padding-left:40px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+small-page .login-box h2 {
+  font-size:2em;
+  text-align: center;
+  
+}
+
+
+
