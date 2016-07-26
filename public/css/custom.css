@@ -311,7 +311,7 @@ margin-bottom: 1.1rem;
   background-color: rgba(255,255,255,0.3)
 }
 .brand-title-holder img {
-  width: 350px;
+  width: 60%;
 }
 
 .lion-icon {
@@ -928,11 +928,12 @@ video-preview-block {
 }
 
 .asset-box {
-width: 210px;
-display:inline-block;
-margin-right: 5px;
-margin-left: 5px;
-padding-top: 10px;
+  width: 210px;
+  display:inline-block;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-top: 10px;
+  margin-bottom: 10px;
 }
 
 .asset-box h5 {
