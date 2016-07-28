@@ -783,7 +783,7 @@ left: 0;
     transition: all .1s linear;
     position: absolute;
     right: 6px;
-    top: 3px;
+    top: 6px;
 }
 input[type="checkbox"]:checked{
   background-color: #0275d8;
@@ -805,7 +805,7 @@ input[type="checkbox"]:focus{
     width:97%;
     height: 100vh;
     vertical-align: top;
-    overflow: scroll;
+    overflow-y: scroll;
     padding-top: 10px;
     padding-right: 0px;
     margin-right: 0px;
