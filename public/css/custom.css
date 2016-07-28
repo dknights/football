@@ -491,9 +491,11 @@ background-repeat: repeat-y;
   
 }
 
-.links a {
+.links>a {
   color:#00003b!important;
 }
+
+
 
 .active {
   border-bottom: none!important;
@@ -528,6 +530,10 @@ background-repeat: repeat-y;
 
 .left-hand-nav-items ul li {
  margin-bottom: 7px 
+}
+
+.left-hand-nav-items ul li a {
+text-decoration: none
 }
 
 
