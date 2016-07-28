@@ -1215,7 +1215,11 @@ vertical-align: top
   filter: alpha(opacity=40); /* msie */
   background-color: #000;
   width:100%;
-  height:100vh;
-  padding-top:130px;
+  height:1100px;
+  overflow:inherit;
+  position:absolute;
+  z-index:90;
+  left:0;
+  top:0
 }
 
