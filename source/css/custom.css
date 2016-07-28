@@ -495,6 +495,9 @@ background-repeat: repeat-y;
   color:#00003b!important;
 }
 
+a:hover {
+  color:#0000bb!important;
+}
 
 
 .active {
@@ -735,7 +738,7 @@ left: 0;
   -o-background-size: cover;
   background-size: cover;
   height: 165px;
-  width: 300px
+  width: 300px;
 }
 
 .video-player .btn-download img {
@@ -749,6 +752,7 @@ left: 0;
   margin-top: 50px;
   width: 70px;
   left: 110px;
+  z-index: 100;
 }
 
 
@@ -896,6 +900,10 @@ color: #0000bb
   position:absolute;
   top:6px;
   left:0px
+}
+
+video[poster] {
+    -webkit-filter: grayscale(80%);
 }
 
 /* ------------------ ASSETS PAGE  --------------------- */
