@@ -491,6 +491,10 @@ background-repeat: repeat-y;
   
 }
 
+.subnav {
+  text-decoration: none
+}
+
 .links>a {
   color:#00003b!important;
 }
@@ -503,6 +507,7 @@ a:hover {
 .active {
   border-bottom: none!important;
   color: #0000bb;
+  margin-bottom:0px
 }
 
 .active p {
